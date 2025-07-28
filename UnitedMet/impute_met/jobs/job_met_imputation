@@ -5,8 +5,8 @@ hostname
 date
 
 # Load conda and active UnitedMet environment
-conda_path="/usersoftware/resnike/xiea1/anaconda/etc/profile.d/conda.sh"
-cd /data1/reznike/xiea1/UnitedMet
+conda_path="/home/irisj/anaconda3/etc/profile.d/conda.sh"
+cd /home/irisj/UnitedMet
 
 # define job options
 job1="pyro_final"
@@ -19,10 +19,10 @@ script2="UnitedMet.impute_met.PL_rna_trial_pyro_posterior"
 
 opts="--verbose_embeddings --n_steps 4000 --learning_rate 0.001"
 file_path="/data1/reznike/xiea1/MetabolicModel/data"
-rna_matched_data_dir="/data1/reznike/xiea1/MetabolicModel/data/RNA_matched_ccRCC"
-met_matched_data_dir="/data1/reznike/xiea1/MetabolicModel/data/MET_matched_ccRCC"
-rna_imputation_data_dir="/data1/reznike/xiea1/MetabolicModel/data/RNA_matched_imputation"
-results_dir="/data1/reznike/xiea1/MetabolicModel/results_RNA_ccRCC"
+rna_matched_data_dir="/home/irisj/UnitedMet/data/RNA_matched_ccRCC"
+met_matched_data_dir="/home/irisj/UnitedMet/data/MET_matched_ccRCC"
+rna_imputation_data_dir= False
+results_dir="/home/irisj/UnitedMet/results_RNA_ccRCC"
 ndims=141
 
 # submit trial jobs
