@@ -26,7 +26,7 @@ n_indices=110
 file_path="/home/irisj/UnitedMet/data/"
 rna_matched_data_dir="/home/irisj/UnitedMet/data/RNA_matched_ccRCC"
 met_matched_data_dir="/home/irisj/UnitedMet/data/MET_matched_ccRCC"
-rna_imputation_data_dir= False
+rna_imputation_data_dir="/home/irisj/UnitedMet/data/rna_imputation_data"
 results_dir="/home/irisj/UnitedMet/results_RNA_ccRCC"
 
 # submit trial jobs
